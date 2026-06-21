@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIONEER SUPPORT FUNDS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>PIONEER SUPPORT FUNDS</h1>
+<p>Empowering You Financially</p>
+</header>
+
+<section class="hero">
+<h2>Get Quick Financial Support</h2>
+<p>Business • Personal • School Fees • Emergency Loans</p>
+<button onclick="startForm()">Apply Now</button>
+</section>
+
+<!-- MULTI STEP FORM -->
+<div class="form-container" id="formContainer">
+
+<div class="form-box">
+
+<!-- STEP 1 -->
+<div class="step active">
+<h3>Step 1: Personal Details</h3>
+<input type="text" placeholder="Full Name">
+<input type="tel" placeholder="Phone Number">
+<button onclick="nextStep()">Next</button>
+</div>
+
+<!-- STEP 2 -->
+<div class="step">
+<h3>Step 2: Loan Details</h3>
+<input type="text" placeholder="Loan Type (Business, School, Emergency)">
+<input type="number" placeholder="Amount Needed">
+<button onclick="prevStep()">Back</button>
+<button onclick="nextStep()">Next</button>
+</div>
+
+<!-- STEP 3 -->
+<div class="step">
+<h3>Step 3: Confirmation</h3>
+<input type="email" placeholder="Email Address">
+<p>Submit your application for review.</p>
+<button onclick="prevStep()">Back</button>
+<button onclick="submitForm()">Submit</button>
+</div>
+
+</div>
+</div>
+
+<section class="info">
+<h2>Why Choose Us</h2>
+<ul>
+<li>Fast Approval</li>
+<li>Trusted Service</li>
+<li>Flexible Repayment</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 PIONEER SUPPORT FUNDS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+                          </html>
